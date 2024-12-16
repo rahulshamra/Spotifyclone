@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getBoundingClientRect Example</title>
+    <style>
+        .example {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="example">This is an example element</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const element = document.querySelector('.example');
+            const rect = element.getBoundingClientRect();
+
+            console.log('Element width:', rect.width);
+            console.log('Element height:', rect.height);
+            console.log('Element top:', rect.top);
+            console.log('Element right:', rect.right);
+            console.log('Element bottom:', rect.bottom);
+            console.log('Element left:', rect.left);
+            console.log('Element x:', rect.x);
+            console.log('Element y:', rect.y);
+        });
+    </script>
+</body>
+</html>

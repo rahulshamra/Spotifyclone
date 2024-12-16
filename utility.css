@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.border {
+    margin: 3px;
+    border: 2px solid red;
+}
+.bg-black{
+    background-color:  black;
+    color: white;
+}
+.invert{
+    filter: invert();
+}
+.bg-gray{
+     background-color: #121212;
+     color: white;
+}
+.rounded{
+    border-radius: 8px;
+}
+.m2{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+} 
+* {
+  scrollbar-width: thin;      /* Width of the scrollbar */
+  scrollbar-color: #555 #2c2c2c; /* Color of the thumb and track */
+}
